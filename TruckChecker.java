@@ -66,17 +66,7 @@ public class TruckChecker{
 			}
 
 		}
-		//List of years should now be populated with the number of trucks per year
 
-		//debugging
-		//sortByTrucks(years); //It works! I cannot allow this to happen outside of a method with an additional thing!
-		//		int listValue = 0;
-		//		for (YearList year : years){
-		//			System.out.printf("%d: Year %d, Trucks %d\n", listValue,  year.getYear(), year.truckCount());
-		//			listValue ++;
-		//		}
-
-		// Actual testing!
 
 		for (Tuple newTuple : convertedTuples){
 			yearWithMostTrucks(newTuple.getNum1(), newTuple.getNum2(), years);
